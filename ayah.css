@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #97CDA6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: left;
+
+
+}
+
+nav {
+  background-color: #EFEB9C;
+  display: f;
+  flex-wrap: wrap;
+  flex-direction: row; 
+}
+@media (max-width:900px) {
+ nav{
+  display: block;
+ }
+ li a{
+  display: block;
+ }
+ .po{
+  left: 25em;
+ }
+ video {
+float: left; 
+ right: 60em;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+}
+.left{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 120px;
+  flex-wrap: wrap;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20px;
+  list-style-type: none;
+  background-color: #EFEB9C;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Itim';
+  flex-wrap: wrap;
+}
+
+
+.pi {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  left: 70px;
+  flex-wrap: wrap;
+}
+
+.start {
+  background-color: #D6E8EE;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header>h2 {
+  position: relative;
+  top: 75px;
+  font-size: 100px;
+  background-color: #f0f8ff;
+  font-family: 'Joti One';
+  flex-wrap: wrap;
+}
+
+.q {
+  color: #A92424;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 70px;
+  font-family: 'Joti One';
+  flex-wrap: wrap;
+}
+
+.po {
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 200px;
+  position: relative;
+  right: 5em;
+  width: 6em;
+  border-radius: 200px;
+  border: none;
+  width: 230px;
+  flex-wrap: wrap;
+  display: block;
+}
+
+
+hr {
+  height: 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  flex-wrap: wrap;
+
+}
+
+.ht {
+  border-radius: 30px;
+  background-color: #E4EB9C;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+align-items: center;
+  
+  font-family: 'Itim';
+  flex-wrap: wrap;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.pio {
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Itim';
+  flex-wrap: wrap;
+}
+
+article {
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-family: 'Itim';
+  flex-wrap: wrap;
+}
+
+video {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ left: 45em;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  font-family: 'Itim';
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h4 {
+  font-size: 2em;
+  font-family: 'Itim';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
