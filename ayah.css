@@ -23,17 +23,17 @@ nav {
  nav{
   display: block;
  }
- li a{
-  display: block;
- }
- .po{
-  left: 25em;
- }
- video {
-float: left; 
- right: 60em;
-  flex-wrap: wrap;
-  width: fit-content;
+.start{
+  width: 90em;
+}
+.po{
+  right: 10em;
+}
+aside{
+justify-content: center;
+}
+video{
+  left: 60em;
 }
 
 }
