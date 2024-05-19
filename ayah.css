@@ -138,22 +138,14 @@ aside {
   font-family: 'Itim';
   flex-wrap: wrap;
 }
-
-article {
-  font-size: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  font-family: 'Itim';
-  flex-wrap: wrap;
-}
-
 video {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   position: relative;
- left: 45em;
-  flex-wrap: wrap;
+ left: 250px;
+ height: 580px;
+ margin: 10px;
 }
 
 section {
@@ -255,23 +247,16 @@ h4 {
   .pio {
     font-size: 20PX;
     justify-content: center;
+    margin: 5px;
   }
   
-  article {
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    font-family: 'Itim';
-    flex-wrap: wrap;
-  }
   
   video {
     display: flex;
     flex-direction: column;
    left: 1px;
-    width: 500px;
-    padding: 20px; 
+   height: 290px;
+  right: 40px;
   }
   h4 {
     font-size: 2em;
