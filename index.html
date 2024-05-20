@@ -16,7 +16,6 @@
 </head>
 <body id="home">
  <nav>
-    
     <ul>
         <li><a class="left" href="#top"><img src="logo.png" width="35px"></a>
         <li><a class="h" href="#home">Home</a></li>
@@ -33,12 +32,12 @@
         <header><h2>Ayah Al-hillawi</h2></header>
         <br>
         <br>
-        <span class="q">programmer</span>  
+        <span class="q" id="aboutme">programmer</span>  
     </div>
     <img class="po" src="Picsart_24-05-18_01-04-52-207-removebg-preview.png">
    </div>
    <hr>
-   <div class="pop" id="aboutme">
+   <div class="pop">
     <button type="button" class="ht"><h1>About Me:</h1></button>
     <br>
     <span class="pio">
@@ -56,26 +55,31 @@
       </video>
       <hr>
       <button type="button" class="ht" id="my skills"><h1>My Skills:</h1></button>
-      <br>
-      <br>
-      <main id="myskills" >
-        <div class="re">
-          <h4>HTML</h4>
-          <img  src="html.png">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner w-20" id="myskills"> 
+          <div class="carousel-item active">
+            <img src="download__14_-removebg-preview.png" class="card" alt="...">
+          </div>
+          <div class="carousel-item ">
+            <img src="css.png" class="card5" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images__4_-removebg-preview.png" class="card3" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images__5_-removebg-preview.png" class="card2" alt="...">
+          </div>
         </div>
-        <div class="re">
-          <h4>CSS</h4>
-          <img  src="css.png">
-        </div>
-        <div class="re">
-          <h4>figma</h4>
-        <img class="py" src="figma.png">
-        </div>
-        <div class="re">
-          <h4>bootstrap</h4>
-          <img src="bootstrap (2).png" >
-        </div> 
-      </main>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
       <hr>
       <button type="button" class="ht" id="contactme"><h1>Contact Me :</h1></button>
         <aside>
