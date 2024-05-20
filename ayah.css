@@ -176,6 +176,12 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.re{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 767px) {
   body {
     background-color: #E8BCF0;
@@ -286,10 +292,5 @@ h4 {
     font-size: 5px; 
   }
 
-  .py{
-position: relative;
-right: 110px;
-top: 30px;
-width: 400px;
-  }
+
 }
