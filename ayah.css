@@ -2,15 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: #E8BCF0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   float: left;
-
-
 }
 
 nav {
@@ -19,13 +16,13 @@ background-color: #E6DFF9;
   flex-wrap: wrap;
   flex-direction: row; 
 }
+
 .left{
   display: flex;
   flex-direction: row;
   position: relative;
   right: 120px;
   flex-wrap: wrap;
-
 }
 
 ul {
@@ -259,12 +256,11 @@ h4 {
     font-size: 20px;
     margin-right: 35px;
   }
-  
+
   .pio {
     font-size: 16PX;
     margin: 5px;
     position: relative;
-
   }
   
   video {
@@ -274,7 +270,6 @@ h4 {
     right: 500px;
     margin: 0px;
     top: 10px;
-
   }
 
   h4 {
@@ -291,6 +286,4 @@ h4 {
   .p{
     font-size: 5px; 
   }
-
-
 }
