@@ -202,13 +202,11 @@ h4 {
     margin-top: 10px;
     position: relative;
     right: 20px;
-  
   }
   .start{
     width: 100%;
   }
 
-  
   header>h2 {
     top: 40px;
     font-size: 25px; 
@@ -236,7 +234,6 @@ h4 {
     left: 159px;
     font-size: 15px;
     margin-top: 10px;
-
   }
   
   main {
@@ -244,9 +241,6 @@ h4 {
     grid-template-columns: repeat(2,200px);
     gap: 2px;
     width: 20px;
-  }
-  .re{
-    margin-top: 20px;
   }
   
   aside {
@@ -262,7 +256,6 @@ h4 {
 
   }
   
-  
   video {
     height: 240px;
     position: relative;
@@ -271,16 +264,26 @@ h4 {
     margin: 0px;
 
   }
+
   h4 {
     font-size: 2em;
     margin: 20px;
   }
+
   hr{
     border: 0px;
     border-radius: 40px;
     background-color: rgb(213, 227, 239);
   }
+
   .p{
-    font-size: 5px;
+    font-size: 5px; 
+  }
+
+  .py{
+position: relative;
+right: 110px;
+top: 30px;
+width: 400px;
   }
 }
