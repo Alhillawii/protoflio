@@ -69,6 +69,10 @@ header>h2 {
   background-color: #f0f8ff;
   font-family: 'Joti One';
   flex-wrap: wrap;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 10px;
+  left: 20px;
 }
 
 .q {
