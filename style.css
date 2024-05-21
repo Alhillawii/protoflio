@@ -128,7 +128,7 @@ hr {
   align-content: center;
   align-items: center;
   position: relative;
-  right: 98px;
+  right: 0px;
   margin: 12px;
   padding: 10px;
 }
@@ -144,38 +144,46 @@ aside {
 
 .card1{
   position: relative;
-  right: 80px;
+  right: 170px;
   width: 350px;
 }
 .card3{
   width: 300px;
   position: relative;
-  right: 30px;
+  right: 140px;
 }
 .card2{
   width: 500px;
   position: relative;
-  right: 150px;
+  right: 200px;
 }
 .card4{
   width: 500px;
   position: relative;
-  right: 150px;
+  right: 230px;
 }
 .card5{
   width: 600px;
   position: relative;
-  right: 190px;
+  right: 290px;
+
+
 }
 .card6{
   width: 600px;
   position: relative;
-  right: 170px;
+  right: 250px;
 }
 .tnt{
   position: relative;
   left: 80px;
   flex-wrap: wrap;
+}
+.box{
+  width: 40px;
+}
+.net{
+  font-size: 50px;
 }
 
 
@@ -188,6 +196,7 @@ aside {
   justify-content: center;
   font-family: 'Itim';
   flex-wrap: wrap;
+  margin: 20px;
 }
 video {
   display: flex;
@@ -235,11 +244,12 @@ h4 {
   display: flex;
   flex-direction: row;
   position: relative;
-  left: 500px;
+  left: 300px;
+  width: 700px;
   flex-wrap: wrap;
   background-color: #EDB518;
-
 }
+
 .card-title{
   display: flex;
   flex-direction: row;
@@ -249,7 +259,13 @@ h4 {
   color: #ffffff;
 }
 .net{
-  font-size: 30px;
+  font-size: 35px;
+  position: relative;
+  left: 70px;
+}
+.box{
+  position: relative;
+  left: 50px;
 }
 
 
@@ -305,8 +321,12 @@ li .h {
     height: 150px;
     width: 160px;
     position: relative;
-    right: 200px;
+    right: 0px;
+    top: 10px;
   
+  }
+  .p{
+    font-size: 20px;
   }
 
   .ht {
@@ -324,6 +344,7 @@ li .h {
   .card5{
     position: relative;
     left: 40px;
+
   }
 
   .card1{
@@ -372,41 +393,38 @@ li .h {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   .card{
-  position: relative;
-  left: 190px;
-  right: 400px;
-  width: 240px;
-  height: 450px;
-  
-  }
-  .card-title{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    font-size: 30px;
-    color: #ffffff;
-  }
-  .net{
-    font-size: 10px;
-  }
-  .img{
-    hi
-  }
-  .carousel-inner{
-    height: 500px;
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
     position: relative;
-    right: 98px;
-    margin: 12px;
-    padding: 10px;
+    left: 150px;
+    width: 200px;
   }
+
+  .card-title{
+    font-size: 15px;
+  }
+ 
+  .net{
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+    bottom: 15px;
+    margin: 10px;
+  }
+  .box{
+    width: 20px;
+    position: relative;
+    left: 0px;
+    bottom: 16px;
+  }
+  
+  
   
   aside {
     display: flex;
@@ -419,33 +437,35 @@ li .h {
   
   .card1{
     position: relative;
-    left: 0px;
     width: 250px;
+  position: relative;
+  left: -70px;
   }
   .card3{
-    width: 300px;
+    width: 250px;
     position: relative;
-    right: 30px;
+    left: -70px;
   }
   .card2{
-    width: 500px;
+    width: 250px;
     position: relative;
-    right: 150px;
+    left: -70px
   }
   .card4{
-    width: 500px;
+    width: 250px;
     position: relative;
-    right: 150px;
+    left: -70px;
   }
   .card5{
-    width: 600px;
+    width:350px;
     position: relative;
-    right: 190px;
+    left: -100px;
   }
   .card6{
-    width: 600px;
+    width: 400px;
     position: relative;
-    right: 170px;
+    left: -120px;
+
   }
   .tnt{
     width: 300px;
