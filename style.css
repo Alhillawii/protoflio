@@ -17,6 +17,21 @@ nav {
   border-radius: 30px;
 }
 
+
+.h {
+  background-color: #000407;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.h:hover,
+.h:focus {
+  background-color: rgba(128, 128, 128, 0.267);
+}
+
 .left {
   display: flex;
   flex-direction: row;
@@ -226,6 +241,21 @@ section {
   justify-content: center;
   flex-wrap: wrap;
 
+}
+
+a {
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  border-radius: 40px;
+  opacity: 0.8px;
+}
+
+a:hover,
+a:focus {
+  background-color: rgba(128, 128, 128, 0.37);
 }
 
 p {
