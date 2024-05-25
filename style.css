@@ -18,27 +18,27 @@ nav {
 }
 
 
-.h {
+a.h {
   background-color: #000407;
   color: #fff;
   border: none;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease-out;
+  border-radius: 20px;
 }
 
-.h:hover,
-.h:focus {
+a.h:hover,
+a.h:focus {
   background-color: rgba(128, 128, 128, 0.267);
 }
 
-.left {
+li a.left {
   display: flex;
   flex-direction: row;
   position: relative;
   width: 150px;
 }
-
 
 ul {
   display: flex;
@@ -243,7 +243,7 @@ section {
 
 }
 
-a {
+section  a{
   color: #fff;
   border: none;
   text-align: center;
@@ -253,8 +253,8 @@ a {
   opacity: 0.8px;
 }
 
-a:hover,
-a:focus {
+section a:hover,
+section a:focus {
   background-color: rgba(128, 128, 128, 0.37);
 }
 
@@ -306,6 +306,13 @@ h4 {
   font-size: 35px;
   position: relative;
   left: 70px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  
+}
+.net:hover{
+  background-color: #c89046d7;
 }
 
 .box {
