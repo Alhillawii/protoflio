@@ -33,7 +33,7 @@ a.h:focus {
   background-color: rgba(128, 128, 128, 0.267);
 }
 
-li a.left {
+.left {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -321,8 +321,7 @@ h4 {
 }
 
 
-@media screen and (max-width: 767px) {
-
+@media  (max-width: 767px) {
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -336,9 +335,9 @@ h4 {
     left: 0px;
   }
 
+
   ul {
     gap: 1px;
-    position: fixed;
     width: 100%;
     background-color: #000407;
     height: 50px;
@@ -350,7 +349,6 @@ h4 {
   }
 
   li .h {
-
     color: #ffffff;
     font-size: 7px;
   }
